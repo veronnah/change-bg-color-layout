@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    height: 100vh;
+    background-color: blueviolet;
+    position: relative;
+}
+.color__btn{
+    position: absolute;
+    top: 50%;
+    left: 44%;
+    width: 200px;
+    min-height: 30px;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color:rgb(105, 98, 98);
+    outline: none;
+    box-shadow: 2px 2px 2px rgb(105, 98, 98);
+}
